@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Link record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 8,
+  "OrderIndex": 20,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
