@@ -3,7 +3,7 @@
   "Description": "Returns the information of a newent record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 2,
+  "OrderIndex": 14,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
