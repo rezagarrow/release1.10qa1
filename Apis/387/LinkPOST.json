@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Link",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 5,
+  "OrderIndex": 17,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
