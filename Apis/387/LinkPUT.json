@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Link record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 7,
+  "OrderIndex": 19,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
