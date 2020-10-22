@@ -1,0 +1,52 @@
+<module type="DnnSharpSeoUrlAdapter" version="05.10.00.00">
+    <contentKey />
+    <moduleID>419</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Admins</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+    </modulepermissions>
+    <title>DnnSharp.SeoUrlAdapter</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>9c840a57-f658-4345-928c-7b34528f1348</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>DnnSharp.SeoUrlAdapter</definition>
+    <moduledefinition>DnnSharp.SeoUrlAdapter</moduledefinition>
+    <content type="DnnSharpSeoUrlAdapter" version="05.10.00.00"><![CDATA[&lt;UrlAdapter&gt;&lt;Settings&gt;&lt;Version&gt;5.10.0&lt;/Version&gt;&lt;Build&gt;5.10.0&lt;/Build&gt;&lt;PathSeparator&gt;/&lt;/PathSeparator&gt;&lt;PunctuationReplacer&gt;-&lt;/PunctuationReplacer&gt;&lt;UrlContentSource&gt;PageName&lt;/UrlContentSource&gt;&lt;AppendExtension&gt;.aspx&lt;/AppendExtension&gt;&lt;EnforceExtension&gt;None&lt;/EnforceExtension&gt;&lt;Lowercase&gt;True&lt;/Lowercase&gt;&lt;IgnoreAccents&gt;True&lt;/IgnoreAccents&gt;&lt;DefaultProvider&gt;SeoUrlAdapter&lt;/DefaultProvider&gt;&lt;EnforceProvider&gt;Permanent301&lt;/EnforceProvider&gt;&lt;PortalHomepage&gt;PortalHome&lt;/PortalHomepage&gt;&lt;PortalHomepageEnforce&gt;None&lt;/PortalHomepageEnforce&gt;&lt;FriendlyUserUrlToken /&gt;&lt;FriendlyUserUrlTokenKey /&gt;&lt;FriendlyUserUrlStatic&gt;/users/&lt;/FriendlyUserUrlStatic&gt;&lt;FriendlyUserUrlEnforce&gt;None&lt;/FriendlyUserUrlEnforce&gt;&lt;EnforceTerms&gt;True&lt;/EnforceTerms&gt;&lt;EnforcePrivacy&gt;True&lt;/EnforcePrivacy&gt;&lt;EnforceLogin&gt;True&lt;/EnforceLogin&gt;&lt;EnforceLogout&gt;True&lt;/EnforceLogout&gt;&lt;EnforceRegister&gt;True&lt;/EnforceRegister&gt;&lt;PreferWww&gt;Any&lt;/PreferWww&gt;&lt;PreferWwwDomainsOnly&gt;False&lt;/PreferWwwDomainsOnly&gt;&lt;LogHttpExceptions&gt;True&lt;/LogHttpExceptions&gt;&lt;DebugLogging&gt;False&lt;/DebugLogging&gt;&lt;SafeWord /&gt;&lt;Page404 /&gt;&lt;UrlType&gt;Absolute&lt;/UrlType&gt;&lt;/Settings&gt;&lt;AdvancedRules /&gt;&lt;TabUrls&gt;&lt;TabUrl&gt;&lt;IsDeleted&gt;false&lt;/IsDeleted&gt;&lt;Id&gt;1&lt;/Id&gt;&lt;TabId&gt;45&lt;/TabId&gt;&lt;Provider&gt;Custom&lt;/Provider&gt;&lt;Url&gt;/Rinks&lt;/Url&gt;&lt;QueryString /&gt;&lt;Type&gt;Alternative&lt;/Type&gt;&lt;LastModified&gt;2020-10-15T12:30:49.827&lt;/LastModified&gt;&lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;&lt;/TabUrl&gt;&lt;/TabUrls&gt;&lt;/UrlAdapter&gt;]]></content>
+</module>
