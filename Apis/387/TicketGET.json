@@ -1,0 +1,79 @@
+{
+  "Name": "Ticket",
+  "Description": "Returns the information of a Ticket record in JSON object format.",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 34,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "RecordId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"RecordId is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.Ticket",
+      "OrderIndex": 0,
+      "Parameters": {
+        "RecordId": "[RecordId]",
+        "OutputToken": "Record"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "Ticket"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 1,
+      "Parameters": {
+        "HttpCode": "200 OK",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[RecordId]"
+          },
+          {
+            "name": "Name",
+            "value": "[Record:Name]"
+          },
+          {
+            "name": "Type",
+            "value": "[Record:Type]"
+          },
+          {
+            "name": "Status",
+            "value": "[Record:Status]"
+          },
+          {
+            "name": "Owner",
+            "value": "[Record:Owner]"
+          }
+        ],
+        "Headers": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
