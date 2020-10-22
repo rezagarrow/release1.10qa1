@@ -1,9 +1,10 @@
 <module type="ActionForm" version="05.10.05.00">
+    <contentKey />
     <moduleID>461</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
-    <cachemethod />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
     <cachetime>0</cachetime>
     <color />
     <containersrc />
@@ -21,6 +22,12 @@
             <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
             <permissionkey>EDIT</permissionkey>
             <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
             <rolename>Admins</rolename>
         </permission>
         <permission>
@@ -30,9 +37,9 @@
             <rolename>Citizen Developers</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.Action Form</title>
+    <title>Action Form Calendar view</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>f972774d-51a6-48a5-8675-cf5c180dac24</uniqueId>
+    <uniqueId>23554d2f-4786-4d28-90dc-f5f392eef952</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicetitle />
@@ -45,8 +52,8 @@
     <content type="ActionForm" version="05.10.05.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields /&gt;
   &lt;Settings&gt;
-    &lt;Title&gt;avt.Action Form&lt;/Title&gt;
-    &lt;CssName&gt;avt-action-form&lt;/CssName&gt;
+    &lt;Title&gt;Action Form Calendar view&lt;/Title&gt;
+    &lt;CssName&gt;action-form-calendar-view&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
     &lt;Build&gt;5.10.5&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
