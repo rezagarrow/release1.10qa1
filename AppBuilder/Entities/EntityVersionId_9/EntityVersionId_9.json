@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": 54,
+  "RecordNamePropertyId": 18,
+  "Id": 9,
+  "VersionId": 9,
+  "Name": "Ticket Status",
+  "PluralName": "Ticket Statuses",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
