@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": 61,
+  "RecordNamePropertyId": 35,
+  "Id": 12,
+  "VersionId": 12,
+  "Name": "MoneyType",
+  "PluralName": "MoneyTypes",
+  "Icon": "dollar-sign",
+  "Type": "UserCreated"
+}
