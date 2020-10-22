@@ -1,0 +1,59 @@
+<module type="DNNHTML" version="09.07.02.00">
+    <contentKey />
+    <moduleID>421</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Header</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>955c7640-3a81-437f-813b-2d1237a88a23</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>HtmlText_ReplaceTokens</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_UseDecorate</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>WorkFlowID</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_SearchDescLength</settingname>
+            <settingvalue>100</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>DNN_HTML</definition>
+    <moduledefinition>Text/HTML</moduledefinition>
+    <content type="DNNHTML" version="09.07.02.00"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h3&amp;gt;Tickets&amp;lt;/h3&amp;gt;
+
+&amp;lt;hr /&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+</module>
