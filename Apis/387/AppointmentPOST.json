@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Appointment",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 57,
+  "OrderIndex": 65,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -40,6 +40,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -50,7 +59,8 @@
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
         "When": "[When]",
-        "Description": "[Description]"
+        "Description": "[Description]",
+        "Type": "[Type]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -94,6 +104,10 @@
           {
             "name": "Description",
             "value": "[CreatedRecord:Description]"
+          },
+          {
+            "name": "Type",
+            "value": "[CreatedRecord:Type]"
           }
         ],
         "Headers": [
