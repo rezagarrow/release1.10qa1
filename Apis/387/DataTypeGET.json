@@ -1,0 +1,111 @@
+{
+  "Name": "DataType",
+  "Description": "Returns the information of a DataType record in JSON object format.",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 38,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "RecordId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"RecordId is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.DataType",
+      "OrderIndex": 0,
+      "Parameters": {
+        "RecordId": "[RecordId]",
+        "OutputToken": "Record"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "DataType"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 1,
+      "Parameters": {
+        "HttpCode": "200 OK",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[RecordId]"
+          },
+          {
+            "name": "Text",
+            "value": "[Record:Text]"
+          },
+          {
+            "name": "Boolean",
+            "value": "[Record:Boolean]"
+          },
+          {
+            "name": "Date",
+            "value": "[Record:Date]"
+          },
+          {
+            "name": "DateTime",
+            "value": "[Record:DateTime]"
+          },
+          {
+            "name": "Email",
+            "value": "[Record:Email]"
+          },
+          {
+            "name": "LargeText",
+            "value": "[Record:LargeText]"
+          },
+          {
+            "name": "LocalDateTime",
+            "value": "[Record:LocalDateTime]"
+          },
+          {
+            "name": "Money",
+            "value": "[Record:Money]"
+          },
+          {
+            "name": "Number",
+            "value": "[Record:Number]"
+          },
+          {
+            "name": "Phone",
+            "value": "[Record:Phone]"
+          },
+          {
+            "name": "Time",
+            "value": "[Record:Time]"
+          },
+          {
+            "name": "URL",
+            "value": "[Record:URL]"
+          }
+        ],
+        "Headers": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
