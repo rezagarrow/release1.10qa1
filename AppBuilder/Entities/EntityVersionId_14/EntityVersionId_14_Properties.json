@@ -61,5 +61,26 @@
     "IsSearchable": true,
     "IsFilterable": false,
     "IsSortable": false
+  },
+  {
+    "Id": 47,
+    "EntityVersionId": 14,
+    "Name": "Type",
+    "Type": {
+      "Id": "EntityRef",
+      "Name": "Entity Reference",
+      "InputType": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "ValueType": "EntityRef",
+        "Length": 4
+      }
+    },
+    "EntityVersionRefId": 15,
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
   }
 ]
