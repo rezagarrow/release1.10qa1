@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "Id": 2,
+    "EntityVersionId": 7,
+    "RelationName": "List of texts"
+  }
+]

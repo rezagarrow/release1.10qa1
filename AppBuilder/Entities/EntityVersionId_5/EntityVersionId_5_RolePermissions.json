@@ -145,6 +145,26 @@
       "RoleId": 8,
       "RoleName": "Users",
       "Value": "true"
+    },
+    {
+      "Id": 151,
+      "PermissionType": {
+        "Id": 3,
+        "Name": "Can Edit"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "own"
+    },
+    {
+      "Id": 152,
+      "PermissionType": {
+        "Id": 4,
+        "Name": "Can Delete"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "own"
     }
   ]
 }
