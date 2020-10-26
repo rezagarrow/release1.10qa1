@@ -1,0 +1,52 @@
+{
+  "ApiId": "22448cbcdbd91d28a3ce4d",
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "DO-1211 - insert",
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "RepeatInterval",
+      "Parameters": {
+        "Start": {
+          "Date": "",
+          "Time": "04:42:00 PM"
+        },
+        "Interval": {
+          "Qty": "2",
+          "Unit": {
+            "Value": "Minutes",
+            "IsExpression": false,
+            "Parameters": {}
+          }
+        },
+        "SkipIfRunning": "",
+        "OnMissfire": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "RunSql",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {
+        "ConnectionString": "",
+        "QueryTimeout": "",
+        "SqlQuery": "insert into Table_dt1 (d) \nvalues(getdate())",
+        "BindTokens": "",
+        "OutputTokenName": "",
+        "ExtractColumns": "",
+        "OnError": [],
+        "ShowErrors": false
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
