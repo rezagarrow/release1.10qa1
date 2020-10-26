@@ -1,5 +1,6 @@
 {
   "ApiId": "ce437199633d772ab3ad1a",
+  "ContextPortal": -1,
   "IsDebug": false,
   "IsEnabled": true,
   "Name": "DO-1211",
@@ -26,7 +27,7 @@
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
-        "SqlQuery": "update",
+        "SqlQuery": "insert into Table_dt2 \nvalues ('[Row:ModifiedJsonData]')",
         "BindTokens": "",
         "OutputTokenName": "",
         "ExtractColumns": "",
