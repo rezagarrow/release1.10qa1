@@ -2,7 +2,7 @@
   "ApiId": "22448cbcdbd91d28a3ce4d",
   "ContextPortal": -1,
   "IsDebug": false,
-  "IsEnabled": true,
+  "IsEnabled": false,
   "Name": "DO-1211 - insert",
   "Triggers": [
     {
