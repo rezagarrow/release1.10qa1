@@ -1,0 +1,39 @@
+{
+  "ApiId": "ce437199633d772ab3ad1a",
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "DO-1211",
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "OnDbInsert",
+      "Parameters": {
+        "TableName": {
+          "Expression": "",
+          "Value": "dbo.Table_dt1",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "RunSql",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {
+        "ConnectionString": "",
+        "QueryTimeout": "",
+        "SqlQuery": "update",
+        "BindTokens": "",
+        "OutputTokenName": "",
+        "ExtractColumns": "",
+        "OnError": [],
+        "ShowErrors": false
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
