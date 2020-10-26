@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type newent",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 45,
+  "OrderIndex": 69,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -67,6 +67,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Link",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -80,7 +89,8 @@
         "datetime": "[datetime]",
         "localdatetime": "[localdatetime]",
         "Int": "[Int]",
-        "Dec": "[Dec]"
+        "Dec": "[Dec]",
+        "Link": "[Link]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -136,6 +146,10 @@
           {
             "name": "Dec",
             "value": "[CreatedRecord:Dec]"
+          },
+          {
+            "name": "Link",
+            "value": "[CreatedRecord:Link]"
           }
         ],
         "Headers": [
