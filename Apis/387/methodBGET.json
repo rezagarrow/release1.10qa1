@@ -1,0 +1,69 @@
+{
+  "Name": "methodB",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 0,
+  "CrossDomainPolicy": "Public",
+  "Inputs": [],
+  "Actions": [
+    {
+      "ActionType": "ExecuteApiMethod",
+      "OrderIndex": 0,
+      "Parameters": {
+        "ApiModule": {
+          "Expression": "",
+          "Value": "384",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "MethodName": {
+          "Expression": "",
+          "Value": "methodA#GET",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "HttpMethod": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "ProcessResponseType": {
+          "Expression": "",
+          "IsExpression": false,
+          "Parameters": {},
+          "Value": "1"
+        },
+        "MethodInputs": "",
+        "MethodInputsList": [],
+        "OutputTokenName": "myval"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "LogError",
+      "OrderIndex": 1,
+      "Parameters": {
+        "Message": "[myval:Content]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 2,
+      "Parameters": {
+        "Content": "[myval:Content]",
+        "HttpCode": "",
+        "Headers": ""
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}
