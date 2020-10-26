@@ -20,14 +20,24 @@
   ],
   "Actions": [
     {
-      "ActionType": "RunSql",
+      "ActionType": "LogError",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 0,
       "Parameters": {
+        "Message": "[Row:ModifiedJsonData]"
+      }
+    },
+    {
+      "ActionType": "RunSql",
+      "Condition": "0",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
-        "SqlQuery": "insert into Table_dt2 \nvalues ('[Row:ModifiedJsonData]')",
+        "SqlQuery": "insert into Table_dt2 (d) \nvalues ('[Row:ModifiedJsonData]')\ninsert into Table_dt1 (d) \nvalues(getdate())",
         "BindTokens": "",
         "OutputTokenName": "",
         "ExtractColumns": "",
