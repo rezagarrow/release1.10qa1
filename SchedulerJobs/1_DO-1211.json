@@ -83,7 +83,7 @@
       "IsEnabled": true,
       "OrderIndex": 3,
       "Parameters": {
-        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:2.NewValue] / 2: [mydate:NewValue]"
+        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:1.NewValue] / 2: [mydate:NewValue]"
       }
     },
     {
