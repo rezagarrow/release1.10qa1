@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.05.00">
+<module type="ActionForm" version="05.10.06.00">
     <contentKey />
     <moduleID>394</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.05.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[21]]&gt;&lt;/Id&gt;
@@ -49,7 +48,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ename:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container date\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edate:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:date=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetime\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003etoday\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edate time:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:datetime:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetimeoffset\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003elocal date time:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:localdatetime:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eInt:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Int=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Dec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ename:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container date\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edate:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:date=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetime\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003etoday\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edate time:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:datetime:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetimeoffset\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003elocal date time:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:localdatetime:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eInt:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Int=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Dec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-table\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eLink:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalLink:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
     &lt;div class=&quot;properties-container text&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -93,6 +92,14 @@
         &lt;/div&gt;
         &lt;div class=&quot;entity-value&quot;&gt;[original:Dec=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
+    &lt;div class=&quot;properties-container entityref&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;i class=&quot;fas fa-fw fa-lg i-icon fa-table&quot;&gt;
+            &lt;/i&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Link:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[originalLink:Name=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
@@ -117,7 +124,7 @@
     &lt;Title&gt;View Form&lt;/Title&gt;
     &lt;CssName&gt;view-form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.5&lt;/Build&gt;
+    &lt;Build&gt;5.10.6&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -134,7 +141,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;394&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.5&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
     &lt;TabId&gt;44&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -177,25 +184,25 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;Condition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.15&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;Condition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.377&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;394&lt;/ModuleId&gt;
       &lt;EventName&gt;init&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckViewPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&quot;}&lt;/MetadataJson&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckViewPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;Action.CheckViewPermissions&lt;/PAP_InternalIdentifier&gt;
-        &lt;PAP_GeneratedCondition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/PAP_GeneratedCondition&gt;
+        &lt;PAP_GeneratedCondition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/PAP_GeneratedCondition&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.15&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:date&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:datetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:localdatetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Dec&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.377&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:date&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:datetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:localdatetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Dec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Link&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;394&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.InitializeVariablesWithDefaultValues&quot;}&lt;/MetadataJson&gt;
@@ -207,8 +214,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.newent&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.163&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.377&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:newentId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;394&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
@@ -216,6 +223,21 @@
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;PreInit.LoadVariablesValues&lt;/PAP_InternalIdentifier&gt;
         &lt;EntityIdentifier&gt;newent&lt;/EntityIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Link&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.393&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:Link]&quot;,&quot;OutputToken&quot;:&quot;originalLink&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;394&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.LoadRefEntityVariablesValues.6&quot;,&quot;EntityIdentifier&quot;:&quot;Link&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.LoadRefEntityVariablesValues.6&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;Link&lt;/EntityIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
   &lt;/Actions&gt;
