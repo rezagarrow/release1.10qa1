@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.05.00">
+<module type="ActionForm" version="05.10.06.00">
     <contentKey />
     <moduleID>393</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.05.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[18]]&gt;&lt;/Id&gt;
@@ -178,7 +177,7 @@
     &lt;Title&gt;Title Form&lt;/Title&gt;
     &lt;CssName&gt;title-form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.5&lt;/Build&gt;
+    &lt;Build&gt;5.10.6&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -204,7 +203,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;393&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.5&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
     &lt;TabId&gt;44&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -248,8 +247,8 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:56.977&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.173&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;FieldName&gt;Edit&lt;/FieldName&gt;
@@ -264,9 +263,9 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.01&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:date&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:datetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:localdatetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Dec&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.22&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:date&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:datetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:localdatetime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Dec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Link&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.InitializeVariablesWithDefaultValues&quot;}&lt;/MetadataJson&gt;
@@ -278,8 +277,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;OpenAFPopup&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:56.993&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.19&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ReinitForm&quot;:true,&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:392,&quot;Parameters&quot;:{}},&quot;Params&quot;:[{&quot;name&quot;:&quot;detailPage&quot;,&quot;value&quot;:&quot;true&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;FieldName&gt;Edit&lt;/FieldName&gt;
@@ -293,8 +292,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.newent&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.023&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.22&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:newentId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
@@ -309,8 +308,8 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:56.993&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.19&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;FieldName&gt;Edit&lt;/FieldName&gt;
@@ -326,8 +325,8 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:56.993&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.207&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;FieldName&gt;Edit&lt;/FieldName&gt;
@@ -343,8 +342,25 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T15:45:57.01&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.207&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;393&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Edit&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckEditPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckEditPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;5&lt;/OrderIndex&gt;
+      &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-26T13:22:03.207&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;393&lt;/ModuleId&gt;
       &lt;FieldName&gt;Edit&lt;/FieldName&gt;
