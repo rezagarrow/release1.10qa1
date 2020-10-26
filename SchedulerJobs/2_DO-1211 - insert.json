@@ -1,5 +1,6 @@
 {
   "ApiId": "22448cbcdbd91d28a3ce4d",
+  "ContextPortal": -1,
   "IsDebug": false,
   "IsEnabled": true,
   "Name": "DO-1211 - insert",
@@ -15,7 +16,7 @@
         "Interval": {
           "Qty": "2",
           "Unit": {
-            "Value": "Minutes",
+            "Value": "Seconds",
             "IsExpression": false,
             "Parameters": {}
           }
