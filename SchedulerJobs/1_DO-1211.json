@@ -21,6 +21,7 @@
   "Actions": [
     {
       "ActionType": "LoadEntitiesFromJson",
+      "Condition": "0",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -32,6 +33,7 @@
     },
     {
       "ActionType": "ExecuteActionsOnEntityList",
+      "Condition": "0",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -66,7 +68,7 @@
     },
     {
       "ActionType": "ParseJsonIntoTokens",
-      "Condition": "0",
+      "Condition": "",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -76,12 +78,23 @@
       }
     },
     {
+      "ActionType": "ParseJsonIntoTokens",
+      "Condition": "",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {
+        "JsonString": "[mydate:NewValue]",
+        "BaseTokenName": "mydate2"
+      }
+    },
+    {
       "ActionType": "LogError",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 4,
       "Parameters": {
-        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:3.NewValue] / 2: [mydate:NewValue]"
+        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate2: [mydate2:2.NewValue] / 2: [mydate2:NewValue]"
       }
     },
     {
