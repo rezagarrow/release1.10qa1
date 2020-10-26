@@ -20,33 +20,68 @@
   ],
   "Actions": [
     {
-      "ActionType": "ParseJsonIntoTokens",
+      "ActionType": "LoadEntitiesFromJson",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 0,
+      "Parameters": {
+        "JsonModel": "[Row:ModifiedJsonData]",
+        "EntityName": "myent",
+        "OnError": []
+      }
+    },
+    {
+      "ActionType": "ExecuteActionsOnEntityList",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
+        "EntityName": "myent",
+        "Filters": "",
+        "ContextBehavior": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "ActionList": [
+          {
+            "Id": -1,
+            "EventName": "click",
+            "Parameters": {
+              "Message": "[mydate:NewValue]"
+            },
+            "ActionType": "LogError",
+            "Definition": {
+              "IsClientAction": false,
+              "Settings": {
+                "Group": "Logging"
+              }
+            }
+          }
+        ],
+        "ContinueOnError": "",
+        "OnError": []
+      }
+    },
+    {
+      "ActionType": "ParseJsonIntoTokens",
+      "Condition": "0",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 2,
       "Parameters": {
         "JsonString": "[Row:ModifiedJsonData]",
         "BaseTokenName": "mydate"
       }
     },
     {
-      "ActionType": "ParseJsonIntoTokens",
-      "Condition": "",
-      "ExecutionType": "OnExecute",
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {
-        "JsonString": "[mydate:ArrayProperty]",
-        "BaseTokenName": "mydate2"
-      }
-    },
-    {
       "ActionType": "LogError",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
-      "OrderIndex": 2,
+      "OrderIndex": 4,
       "Parameters": {
-        "Message": "[mydate2:3.NewValue]"
+        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:3.NewValue] / 2: [mydate:NewValue]"
       }
     },
     {
@@ -54,7 +89,7 @@
       "Condition": "0",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
-      "OrderIndex": 3,
+      "OrderIndex": 5,
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
