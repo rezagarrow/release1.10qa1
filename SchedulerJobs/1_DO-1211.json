@@ -24,7 +24,7 @@
       "Condition": "",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
-      "OrderIndex": 2,
+      "OrderIndex": 0,
       "Parameters": {
         "JsonString": "[Row:ModifiedJsonData]",
         "BaseTokenName": "mydate"
@@ -32,25 +32,26 @@
     },
     {
       "ActionType": "LogError",
+      "Condition": "0",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
-      "OrderIndex": 3,
+      "OrderIndex": 1,
       "Parameters": {
         "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:2.NewValue]"
       }
     },
     {
       "ActionType": "RunSql",
-      "Condition": "0",
+      "Condition": "",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
-      "OrderIndex": 5,
+      "OrderIndex": 2,
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
         "SqlQuery": "insert into Table_dt2 (d) \nvalues ('[mydate:2.NewValue] ')",
         "BindTokens": "",
-        "OutputTokenName": "",
+        "OutputTokenName": "myres",
         "ExtractColumns": "",
         "OnError": [],
         "ShowErrors": false
