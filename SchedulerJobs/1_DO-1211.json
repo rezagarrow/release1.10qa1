@@ -31,13 +31,13 @@
     },
     {
       "ActionType": "ParseJsonIntoTokens",
-      "Condition": "0",
+      "Condition": "",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 1,
       "Parameters": {
-        "JsonString": "[mydate:NewValue]",
-        "BaseTokenName": "mydate"
+        "JsonString": "[mydate:ArrayProperty]",
+        "BaseTokenName": "mydate2"
       }
     },
     {
@@ -46,7 +46,7 @@
       "IsEnabled": true,
       "OrderIndex": 2,
       "Parameters": {
-        "Message": "[mydate:3.NewValue]"
+        "Message": "[mydate2:3.NewValue]"
       }
     },
     {
