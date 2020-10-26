@@ -124,5 +124,27 @@
       "RoleName": "Managers",
       "Value": "all"
     }
+  ],
+  "8": [
+    {
+      "Id": 149,
+      "PermissionType": {
+        "Id": 1,
+        "Name": "Can View"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "own"
+    },
+    {
+      "Id": 150,
+      "PermissionType": {
+        "Id": 2,
+        "Name": "Can Add"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "true"
+    }
   ]
 }
