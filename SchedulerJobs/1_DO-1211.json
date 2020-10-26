@@ -20,53 +20,6 @@
   ],
   "Actions": [
     {
-      "ActionType": "LoadEntitiesFromJson",
-      "Condition": "0",
-      "ExecutionType": "OnExecute",
-      "IsEnabled": true,
-      "OrderIndex": 0,
-      "Parameters": {
-        "JsonModel": "[Row:ModifiedJsonData]",
-        "EntityName": "myent",
-        "OnError": []
-      }
-    },
-    {
-      "ActionType": "ExecuteActionsOnEntityList",
-      "Condition": "0",
-      "ExecutionType": "OnExecute",
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {
-        "EntityName": "myent",
-        "Filters": "",
-        "ContextBehavior": {
-          "Expression": "",
-          "Value": "",
-          "IsExpression": false,
-          "Parameters": {}
-        },
-        "ActionList": [
-          {
-            "Id": -1,
-            "EventName": "click",
-            "Parameters": {
-              "Message": "[mydate:NewValue]"
-            },
-            "ActionType": "LogError",
-            "Definition": {
-              "IsClientAction": false,
-              "Settings": {
-                "Group": "Logging"
-              }
-            }
-          }
-        ],
-        "ContinueOnError": "",
-        "OnError": []
-      }
-    },
-    {
       "ActionType": "ParseJsonIntoTokens",
       "Condition": "",
       "ExecutionType": "OnExecute",
@@ -83,18 +36,7 @@
       "IsEnabled": true,
       "OrderIndex": 3,
       "Parameters": {
-        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:1.NewValue] / 2: [mydate:NewValue]"
-      }
-    },
-    {
-      "ActionType": "ParseJsonIntoTokens",
-      "Condition": "0",
-      "ExecutionType": "OnExecute",
-      "IsEnabled": true,
-      "OrderIndex": 4,
-      "Parameters": {
-        "JsonString": "[mydate:NewValue]",
-        "BaseTokenName": "mydate2"
+        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:2.NewValue]"
       }
     },
     {
@@ -106,7 +48,7 @@
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
-        "SqlQuery": "insert into Table_dt2 (d) \nvalues ('[Row:ModifiedJsonData]')\ninsert into Table_dt1 (d) \nvalues(getdate())",
+        "SqlQuery": "insert into Table_dt2 (d) \nvalues ('[mydate:2.NewValue] ')",
         "BindTokens": "",
         "OutputTokenName": "",
         "ExtractColumns": "",
