@@ -49,7 +49,7 @@
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
-        "SqlQuery": "insert into Table_dt2 (d) \nvalues ('[mydate:2.NewValue] ')",
+        "SqlQuery": "insert into Table_dt2 (d,dt1id) \nvalues ('[mydate:2.NewValue] ','[mydate:1.NewValue]')",
         "BindTokens": "",
         "OutputTokenName": "myres",
         "ExtractColumns": "",
