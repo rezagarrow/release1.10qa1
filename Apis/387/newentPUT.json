@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided newent record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 47,
+  "OrderIndex": 71,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -84,6 +84,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Link",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -97,7 +106,8 @@
         "datetime": "[datetime]",
         "localdatetime": "[localdatetime]",
         "Int": "[Int]",
-        "Dec": "[Dec]"
+        "Dec": "[Dec]",
+        "Link": "[Link]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
