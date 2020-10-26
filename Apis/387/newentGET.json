@@ -3,7 +3,7 @@
   "Description": "Returns the information of a newent record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 46,
+  "OrderIndex": 70,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -72,6 +72,10 @@
           {
             "name": "Dec",
             "value": "[Record:Dec]"
+          },
+          {
+            "name": "Link",
+            "value": "[Record:Link]"
           }
         ],
         "Headers": []
