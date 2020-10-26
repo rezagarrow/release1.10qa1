@@ -78,23 +78,23 @@
       }
     },
     {
-      "ActionType": "ParseJsonIntoTokens",
-      "Condition": "",
+      "ActionType": "LogError",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 3,
       "Parameters": {
-        "JsonString": "[mydate:NewValue]",
-        "BaseTokenName": "mydate2"
+        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate: [mydate:2.NewValue] / 2: [mydate:NewValue]"
       }
     },
     {
-      "ActionType": "LogError",
+      "ActionType": "ParseJsonIntoTokens",
+      "Condition": "0",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 4,
       "Parameters": {
-        "Message": "JSON: [Row:ModifiedJsonData]\n\nDate2: [mydate2:2.NewValue] / 2: [mydate2:NewValue]"
+        "JsonString": "[mydate:NewValue]",
+        "BaseTokenName": "mydate2"
       }
     },
     {
